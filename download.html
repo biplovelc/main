@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+            }
+            .nav{
+                background-image: linear-gradient(-225deg, #DFFFCD 0%, #90F9C4 48%, #39F3BB 100%);
+            }
+            a {
+                text-decoration: none;
+                color: rgba(4, 44, 7, 0.979);
+            }
+            a:hover {
+                color: orangered;
+            }
+            .swap img {
+            position: absolute;
+            top:0;
+            left:0;
+            overflow: hidden;
+            width: 160px;
+            height: 168px;
+            }
+            .swap .insta1 {
+                z-index: 9999;
+                transition: opacity 0.35s linear;
+                cursor: pointer;
+            }
+            .swap:hover > .insta1{
+                opacity: 0;
+            }
+            footer {
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                padding: 6px;
+                text-align: center;
+            }
+        </style>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Download | biplovegram</title>
+    </head>
+    <body >
+        <table width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td width="160" height="168">
+                <a href="index.html" class="logo">
+                    <figure class="swap">
+                        <img src="images/instagram1.svg" class="insta1">
+                        <img src="images/instagram3.svg" class="insta3">
+                    </figure>
+                </a>
+                </td>
+                <td>
+                    <img src="images/banner.jpg" width="100%" height="158">
+                </td>
+            </tr>
+            <tr class="nav" height="50px">
+                <td><a name="#top"></a></td>
+                <td>
+                    <table width="100%" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="25%">
+                                <a href="index.html">Home</a>    
+                            </td>
+                            <td width="25%">
+                                <a href="about.html">About</a>
+                            </td>
+                            <td width="25%">
+                                <a href="download.html" target="_blank" style=" border-bottom: 3px solid rgb(6, 116, 70); padding-bottom: 3px;">Download</a>   
+                            </td>
+                            <td width="25%">
+                                <a href="register.html">Register</a>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <div style="float: center;">
+            <h1 style="text-align: justify; ">
+                Oh!! You are using our latest version of application. We will notice you when we got new updates.
+            </h1>
+        </div>
+
+        <footer>
+            <hr>
+            Copyright &copy; biplovegram, Powered by Google
+        </footer>
+    </body>
+</html>
